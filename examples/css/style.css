@@ -1,0 +1,69 @@
+.alert {
+    text-align: center;
+}
+#example {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.alert-reminder {
+    -ms-animation: shake 1s linear 1;
+    -webkit-animation: shake 1s linear 1;
+}
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+@-webkit-keyframes shake {
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translateX(10px);
+    }
+}
+@-ms-keyframes shake {
+    0%,
+    100% {
+        -ms-transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -ms-transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -ms-transform: translateX(10px);
+    }
+}
